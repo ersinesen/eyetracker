@@ -1,0 +1,120 @@
+/* CAMERA CAPTURE STYLE */
+.capture { position:relative; }
+.myvideo {
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width:640px;
+    height:480px;
+    top: 0;
+    left: 0;
+}
+.mycanvas {
+  /* change canvas size in html not in css
+  width: 640px;
+  height: 480px;
+  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.overlay {
+    position:absolute;
+    top:430px;
+    left:5px;
+    z-index:2;
+}
+
+
+#startbutton {
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  bottom:auto;
+  background-color: rgba(0, 150, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+#stopbutton {
+  display:block;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  bottom:auto;
+  background-color: rgba(0, 0, 150, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+
+
+/* NAVBAR STYLE */
+.navbar-custom {
+    background-color: #343434;
+    color: white;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* for dropdown only - change the color of droodown */
+.navbar-custom .dropdown-menu {
+    background-color: #343434;
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #191919;
+    background-color: #191919);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Make the image fully responsive */
+.carousel-inner {
+  /*width: 100%;
+  height: 100%;*/
+  margin: auto;
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
