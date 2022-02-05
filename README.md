@@ -1,6 +1,8 @@
 # Eye Tracker
 
-Makes use of our novel eye localization method. Demo is prepared using HTML5 webRTC capture, face-api.js, opencvjs.
+An eye localization method. Demo is prepared using HTML5 webRTC capture, face-api.js, opencvjs.
+
+Warning: Not finished.
 
 # Build
 
